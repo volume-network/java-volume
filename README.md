@@ -57,13 +57,3 @@ echo "CREATE DATABASE vlm_master;
       GRANT ALL PRIVILEGES ON vlm_master.* TO 'vlm_user'@'localhost';" | mysql -uroot
 mysql -uroot vlm_master < init-mysql.sql
 ```
-
-##### Configure your Database
-
-Now you need to add the following stuff to your `conf/vlm.properties`:
-
-```
-DB.Url=jdbc:mariadb://localhost:3306/vlm_master
-DB.Username=vlm_user
-DB.Password=yourpassword
-```
