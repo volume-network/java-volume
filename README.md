@@ -58,7 +58,7 @@ echo "CREATE DATABASE vlm_master;
 mysql -uroot vlm_master < init-mysql.sql
 ```
 
-##### Configure your Wallet
+##### Configure your Database
 
 Now you need to add the following stuff to your `conf/vlm.properties`:
 

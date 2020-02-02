@@ -7,14 +7,7 @@
     <groupId>volumeNode</groupId>
     <artifactId>volumeNode</artifactId>
     <version>0.0.1</version>
-    <name>VolumeNode Reference Software</name>
-    <url>https://github.com/sasaxie/burstcoin</url>
-
-    <scm>
-        <connection>scm:git:git@github.com:sasaxie/burstcoin.git</connection>
-        <developerConnection>scm:git:git@github.com:sasaxie/burstcoin.git</developerConnection>
-        <url>https://github.com/sasaxie/burstcoin</url>
-    </scm>
+    <name>Volume Network Software</name>
 
     <packaging>jar</packaging>
 
