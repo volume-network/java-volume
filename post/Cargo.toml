@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+  "filecoin-proofs",
+  "storage-proofs",
+  "fil-proofs-tooling",
+  "sha2raw"
+]
